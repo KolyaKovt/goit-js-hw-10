@@ -31,7 +31,7 @@ function validateDate(selectedDates) {
     if (!isDataValid) {
       iziToast.error({
         title: "Error",
-        message: "Illegal operation",
+        message: "Please choose a date in the future",
         position: "topRight",
         iconUrl: "/close-message.svg",
         theme: "dark",
